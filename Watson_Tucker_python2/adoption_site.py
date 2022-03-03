@@ -52,6 +52,9 @@ class Owner(db.Model):
 
     def __repr__(self):
         return f"Owner Name: {self.name}"
+    
+
+db.create_all()
 
 
 ############################################
@@ -120,4 +123,3 @@ def del_pup():
 if __name__ == '__main__':
     app.run(debug=True)
 
-db.create_all()
