@@ -2,11 +2,11 @@
 {% block content %}
 <div class="jumbotron d-flex flex-column align-items-center mb-0" style="min-height: calc(100vh - 56px)">
   <h1>Incorrect Input?</h1>
-  <p>Fill out the form to remove the sale from the database.</p>
+  <p>Fill out the form to remove the product from the database.</p>
   <form method="POST">
       {# This hidden_tag is a CSRF security feature. #}
       {{ form.hidden_tag() }}
-      {{ form.Index.label }} {{ form.Index() }}
+      {{ form.prod_key.label }} {{ form.prod_key() }}
       {{ form.submit() }}
   </form>
 </div>

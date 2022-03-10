@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron d-flex flex-column align-items-center mb-0" style="min-height: calc(100vh - 56px)">
+  <h1>Add a new product to the database</h1>
+  <p>Please fill out the information below:</p>
+  <form method="POST" class="d-flex flex-column align-items-start">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.prod_key.label }} {{ form.prod_key() }}<br>
+    {{ form.PROD_CODE.label }} {{ form.PROD_CODE() }}<br>
+    {{ form.PROD_NAME.label }} {{ form.PROD_NAME() }} <br>
+    {{ form.Year.label }} {{ form.Year() }}<br>
+    {{ form.Price.label }} {{ form.Price() }}<br>
+    {{ form.submit() }}
+{% endblock %}

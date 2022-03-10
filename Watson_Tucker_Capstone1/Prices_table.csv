@@ -1,9 +1,33 @@
-PROD_CODE,PROD_NAME,URL,link,Manufacturer,Extended Service Plan,Warranty Price,2019Q1,2019Q2,2019Q3,2019Q4,2020Q1,2020Q2,2020Q3,2020Q4
-PROD_006,ZT2000 Zero Turn Mower,https://www.bobcat.com/mowers/zero-turn-mowers/zt2000,ZT2000 Zero Turn Mower,Bobcat,ESP_006,372,4575,4575,4575,4575,4649,4649,4649,4649
-PROD_005,UV34 Gas ,https://www.bobcat.com/utility-products/utv/UV34/UV34-gas-utv,UV34 Gas ,Bobcat,ESP_005,843,13995,13995,13995,13995,14225,14225,14225,14225
-PROD_004,CT1021 Sub-Compact Tractor,https://www.bobcat.com/tractors/models/ct1021/features,CT1021 Sub-Compact Tractor,Bobcat,ESP_004,843,11385,11385,11385,11385,11527,11527,11527,11527
-PROD_007,S70 Skid Steer Loader,https://www.bobcat.com/loaders/skid-steer-loaders/models/s70/features,S70 Skid Steer Loader,Bobcat,ESP_007,1027,22987,22987,22987,22987,23120,23120,23120,23120
-PROD_002,CUV82,https://www.cat.com/en_US/products/new/equipment/utility-vehicles/utility-vehicles/1000034280.html,CUV82,Cat,ESP_002,843,14786,14786,14786,14786,14998,14998,14998,14998
-PROD_001,Gator XUV 590M,https://e-marketing.deere.com/store/landpro-equipmentalexander-ny/ViewAllProducts.do,Gator XUV 590M,John Deere,ESP_001,843,12449,12449,12449,12449,12499,12499,12499,12499
-PROD_008,Z930M Ztrack,https://e-marketing.deere.com/store/landpro-equipmentalexander-ny/ViewAllProducts.do,Z930M Ztrack,John Deere,ESP_008,843,11589,11589,11589,11589,11689,11689,11689,11689
-PROD_003,1025R Sub-Compact Tractor,https://e-marketing.deere.com/store/landpro-equipmentalexander-ny/ViewAllProducts.do,1025R Sub-Compact Tractor,John Deere,ESP_003,978,14999,14999,14999,14999,15066,15066,15066,15066
+prod_key,PROD_CODE,PROD_NAME,Year,Price
+1,PROD_006,ZT2000 Zero Turn Mower,2019,4575
+2,PROD_006,ZT2000 Zero Turn Mower,2020,4649
+3,PROD_005,UV34 Gas ,2019,13995
+4,PROD_005,UV34 Gas ,2020,14225
+5,PROD_004,CT1021 Sub-Compact Tractor,2019,11385
+6,PROD_004,CT1021 Sub-Compact Tractor,2020,11527
+7,PROD_007,S70 Skid Steer Loader,2019,22987
+8,PROD_007,S70 Skid Steer Loader,2020,23120
+9,PROD_002,CUV82,2019,14786
+10,PROD_002,CUV82,2020,14998
+11,PROD_001,Gator XUV 590M,2019,12449
+12,PROD_001,Gator XUV 590M,2020,12499
+13,PROD_008,Z930M Ztrack,2019,11589
+14,PROD_008,Z930M Ztrack,2020,11689
+15,PROD_003,1025R Sub-Compact Tractor,2019,14999
+16,PROD_003,1025R Sub-Compact Tractor,2020,15066
+17,ESP_006,Extended Service Plan,2019,372
+18,ESP_006,Extended Service Plan,2020,372
+19,ESP_005,Extended Service Plan,2019,843
+20,ESP_005,Extended Service Plan,2020,843
+21,ESP_004,Extended Service Plan,2019,843
+22,ESP_004,Extended Service Plan,2020,843
+23,ESP_007,Extended Service Plan,2019,1027
+24,ESP_007,Extended Service Plan,2020,1027
+25,ESP_002,Extended Service Plan,2019,843
+26,ESP_002,Extended Service Plan,2020,843
+27,ESP_001,Extended Service Plan,2019,843
+28,ESP_001,Extended Service Plan,2020,843
+29,ESP_008,Extended Service Plan,2019,843
+30,ESP_008,Extended Service Plan,2020,843
+31,ESP_003,Extended Service Plan,2019,978
+32,ESP_003,Extended Service Plan,2020,978

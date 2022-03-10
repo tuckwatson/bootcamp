@@ -1,13 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="jumbotron">
-  <h1>Have a puppy that needs to be adopted?</h1>
-  <p>Add a new puppy with the form below:</p>
-  <form method="POST">
+<div class="jumbotron d-flex flex-column align-items-center mb-0" style="min-height: calc(100vh - 56px)">
+  <h1>Weekly Sales Updates</h1>
+  <p>Add the weekly new sales with the form below:</p>
+  <form method="POST" class="d-flex flex-column align-items-start">
       {# This hidden_tag is a CSRF security feature. #}
       {{ form.hidden_tag() }}
-      {{ form.name.label }} {{ form.name() }} <br>
-      {{ form.color.label }} {{ form.color() }}<br>
+      {{ form.Index.label }} {{ form.Index() }}<br>
+      {{ form.ITEM_CODE.label }} {{ form.ITEM_CODE() }}<br>
+      {{ form.EMP_ID.label }} {{ form.EMP_ID() }} <br>
+      {{ form.Year.label }} {{ form.Year() }}<br>
+      {{ form.Week.label }} {{ form.Week() }}<br>
+      {{ form.Amount.label }} {{ form.Amount() }}<br>
       {{ form.submit() }}
   </form>
 </div>
